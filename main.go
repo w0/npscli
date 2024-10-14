@@ -32,7 +32,7 @@ func printTable(data nps.Activities) {
 func printParks(parks []nps.Park) {
 	parkIndexes := randomIndexs(len(parks))
 
-	fmt.Println("Consider visiting one of these ranomly selected parks!")
+	fmt.Println("Consider visiting one of these randomly selected parks!")
 	for i, index := range parkIndexes {
 		fmt.Printf("%d: %s, located in the state(s) of %s: \n\t\t%s\n\n",
 			i+1,
